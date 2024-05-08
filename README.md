@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm currently working on machine learning in dermatology! <br>I'm studying CS at Carnegie Mellon University, and<br>⚽Fun fact, I love playing soccer!<br>I used to be an Arsenal fan until I realized that was too stressful.
+I'm passionate about mitigating bias in applied artificial intelligence algorithms! <br>I'm studying CS at Carnegie Mellon University, and<br>⚽Fun fact, I love playing soccer!<br>I used to be an Arsenal fan until I realized that was too stressful.
 
 
 ## 🌐 Socials:
