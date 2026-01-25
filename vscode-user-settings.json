@@ -1,0 +1,150 @@
+{
+  "[ocaml]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ocamllabs.ocaml-platform",
+    "editor.semanticHighlighting.enabled": true
+  },
+  "[go]": {
+    "editor.rulers": [
+      80
+    ]
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "code-runner.runInTerminal": true,
+  "C_Cpp.updateChannel": "Insiders",
+  "[cpp]": {
+    "editor.formatOnSave": true,
+    "C_Cpp.clang_format_style": "file",
+    "C_Cpp.clang_format_fallbackStyle": "LLVM"
+  },
+  // "[jsonc]": {
+  //     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  "java.home": "C:\\Users\\tjyan\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-11.0.13.8-hotspot",
+  "java.help.firstView": "gettingStarted",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "files.associations": {
+    "*.rmd": "markdown",
+    "iostream": "cpp",
+    "cmath": "cpp",
+    "cstddef": "cpp",
+    "cstdint": "cpp",
+    "cstdio": "cpp",
+    "cstdlib": "cpp",
+    "cstring": "cpp",
+    "cwchar": "cpp",
+    "exception": "cpp",
+    "initializer_list": "cpp",
+    "ios": "cpp",
+    "iosfwd": "cpp",
+    "istream": "cpp",
+    "limits": "cpp",
+    "memory": "cpp",
+    "new": "cpp",
+    "ostream": "cpp",
+    "stdexcept": "cpp",
+    "streambuf": "cpp",
+    "system_error": "cpp",
+    "type_traits": "cpp",
+    "typeinfo": "cpp",
+    "utility": "cpp",
+    "xfacet": "cpp",
+    "xiosbase": "cpp",
+    "xlocale": "cpp",
+    "xlocinfo": "cpp",
+    "xlocnum": "cpp",
+    "xmemory": "cpp",
+    "xmemory0": "cpp",
+    "xstddef": "cpp",
+    "xstring": "cpp",
+    "xtr1common": "cpp",
+    "xutility": "cpp",
+    "fstream": "cpp",
+    "string": "cpp",
+    "algorithm": "cpp",
+    "vector": "cpp",
+    "list": "cpp",
+    "set": "cpp",
+    "tuple": "cpp",
+    "xtree": "cpp"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "notebook.lineNumbers": "on",
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff"    
+  },
+  "git.confirmSync": false,
+  "remote.autoForwardPortsSource": "hybrid",
+  "files.autoSave": "afterDelay",
+  "editor.detectIndentation": false,
+  "git.autofetch": true,
+  "python.createEnvironment.trigger": "off",
+  "python.terminal.activateEnvironment": false,
+  "workbench.sideBar.location": "right",
+  "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home",
+  "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "terminal.integrated.commandsToSkipShell": [
+    "language-julia.interrupt"
+  ],
+  "julia.symbolCacheDownload": true,
+  "julia.enableTelemetry": false,
+  "latex-workshop.bibtex-format.tab": "4 spaces",
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  // "[typescript]": {
+  //     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  "bngl.general.enable_terminal_runner": true,
+  "[bngl]": {},
+  "chat.commandCenter.enabled": false,
+  "extensions.ignoreRecommendations": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "python.analysis.typeCheckingMode": "standard",
+  "terminal.integrated.inheritEnv": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.tabSize": 2,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "settingsSync.ignoredExtensions": [
+    "vscjava.vscode-java-test",
+    "natizyskunk.sftp",
+    "als251.bngl",
+    "ms-python.black-formatter",
+    "visualstudioexptteam.vscodeintellicode",
+    "visualstudioexptteam.intellicode-api-usage-examples"
+  ],
+  "editor.minimap.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "notebook.output.scrolling": true,
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.defaultPackageManager": "ms-python.python:conda",
+  "terminal.integrated.suggest.inlineSuggestion": "off",
+  "terminal.integrated.suggest.enabled": false,
+  "redhat.telemetry.enabled": false,
+  "python.defaultInterpreterPath": "/opt/anaconda3",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "chat.disableAIFeatures": true
+}
