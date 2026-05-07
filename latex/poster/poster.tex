@@ -1,0 +1,147 @@
+% Unofficial UChicago CS Poster Template
+% v1.1.0 released September 8, 2022
+% https://github.com/k4rtik/uchicago-poster
+% a fork of https://github.com/anishathalye/gemini
+% Further modified by Tyler Yang to match CMU colors
+
+\documentclass[final]{beamer}
+
+% ====================
+% Packages
+% ====================
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[size=custom,width=120,height=86,scale=0.9]{beamerposter}
+\usetheme{scs}
+\usecolortheme{cmu}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{doi}
+\usepackage[numbers]{natbib}
+\setlength{\bibsep}{0pt}
+\usepackage[patch=none]{microtype}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{anyfontsize}
+
+\pdfstringdefDisableCommands{%
+\def\translate#1{#1}%
+}
+\input{../commands301}
+
+% ====================
+% Lengths
+% ====================
+
+% If you have N columns, choose \sepwidth and \colwidth such that
+% (N+1)*\sepwidth + N*\colwidth = \paperwidth
+\newlength{\sepwidth}
+\newlength{\colwidth}
+\setlength{\sepwidth}{0.025\paperwidth}
+\setlength{\colwidth}{0.3\paperwidth}
+
+\newcommand{\separatorcolumn}{\begin{column}{\sepwidth}\end{column}}
+
+% ====================
+% Title
+% ====================
+
+\title{Poster}
+
+\author{Author1 \and Author1 \and Author1}
+
+\institute[shortinst]{Carnegie Mellon University}
+
+% ====================
+% Footer (optional)
+% ====================
+
+\footercontent{
+  15-XXX Some Coursename (SEASON 20XX) 
+}
+% (can be left out to remove footer)
+% ====================
+% Body
+% ====================
+\begin{document}
+\addtobeamertemplate{headline}{}
+{
+    \begin{tikzpicture}[remember picture,overlay]
+      \node [anchor=north west, inner sep=3cm] at ([xshift=0.0cm,yshift=1.75cm]current page.north west)
+      {\includegraphics[height=6.0cm]{CMULogoWithBG.png}};
+    \end{tikzpicture}
+}
+
+\begin{frame}[t]
+\begin{columns}[t]
+\separatorcolumn
+
+\begin{column}{\colwidth}
+
+\begin{block}{Introduction}
+  Intro Text
+\end{block}
+
+
+\end{column} % end first column
+
+\separatorcolumn
+% ====================
+% Second Column
+% ====================
+\begin{column}{\colwidth}
+
+\begin{block}{Architecture}
+\setlength{\fboxrule}{2pt} % Set border thickness
+\setlength{\fboxsep}{0pt}  % Set padding (0pt for tight border)
+\begin{center}
+    \fbox{\includegraphics[width=0.95\colwidth]{CMUlogo.png}}
+\end{center}
+\end{block}
+
+
+\begin{block}{Methods}
+\input{content/methods} 
+\end{block}
+
+
+\end{column} % end second column
+
+\separatorcolumn
+% ====================
+% Third Column
+% ====================
+\begin{column}{\colwidth}
+
+
+\begin{block}{Conclusion}
+\begin{itemize}
+\item asdfasdf
+\end{itemize}
+\end{block}
+
+
+% ====================
+% References
+% use poster.bib for BibTeX references
+% ====================
+\begin{block}{References}
+
+\nocite{*}
+{\scriptsize
+\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
+\bibliographystyle{abbrvnat}
+\bibliography{poster}
+}
+
+\end{block}
+\end{column} % end third column
+
+\separatorcolumn
+\end{columns}
+\end{frame}
+
+\end{document}
